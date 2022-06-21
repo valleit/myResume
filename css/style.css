@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 20px 0;
+}
+
+.content {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 45px 0 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+header {
+    position: relative;
+    margin-bottom: 125px;
+}
+
+.my_name_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 60px 0;
+}
+
+.my_name {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.my_photo {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 300px;
+    margin: 0 auto;
+    border: 15px solid rgba(0, 0, 0, 0.6);
+    border-radius: 100%;
+    z-index: 10;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 57px;
+    padding: 25px 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav_line_one {
+    justify-content: space-between;
+}
+
+.nav_line_twoo {
+    margin-top: 12px;
+    padding: 0 140px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.about_my_content {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.general_information,.about_my {
+    width: 380px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.general_information h2,.about_my h2 {
+    text-align: center;
+}
+
+.general_information div {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.about_my div {
+    padding: 12px 0;
+}
+
+.about_myself_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_myself {
+    padding: 24px 0 0 100px;
+}
+
+.about_my .hobby {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_base {
+    padding: 0 60px;
+    margin-top: 60px;
+}
+
+.section_base h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.info_blok {
+    width: 410px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 12px 25px;
+    margin: 60px 0;
+}
+
+.info_blok div {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+
+.info_blok:nth-child(odd) {
+    margin-left: auto;
+}
+
+.section_prog {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prog_block {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin:60px auto;
+    padding: 15px;
+}
+
+.prog_logo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 10px 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__facebook-logo {
+    width: 200px;
+}
